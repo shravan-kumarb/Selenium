@@ -1,0 +1,33 @@
+#Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+
+#Allure
+allure-results/
+allure-report/
+.allure/
+
+
+#Reports / artifacts
+cucumber-report.html
+screenshots/
+
+#IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+
+#DS
+.DS_Store
+
+# Logs
+*.log
+
+
+# Secrets
+.env

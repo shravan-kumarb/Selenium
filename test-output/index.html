@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo" class="navigator-link ">
+                    <span>E:\sauceDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo" class="hide-methods passed suite-SauceDemo"> (hide)</a> <!-- hide-methods passed suite-SauceDemo -->
+                      <a href="#" panel-name="suite-SauceDemo" class="show-methods passed suite-SauceDemo"> (show)</a> <!-- show-methods passed suite-SauceDemo -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">runScenario("Invalid login shows an error", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">runScenario("Invalid login shows an error", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Sort products by price low to high&quot;, &quot;Products&quot;)">runScenario("Sort products by price low to high", "Products")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;User can go to the checkout page&quot;, &quot;Cart&quot;)">runScenario("User can go to the checkout page", "Cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Perfomance glitch user can still login&quot;, &quot;Login&quot;)">runScenario("Perfomance glitch user can still login", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Get a post by id&quot;, &quot;Posts API&quot;)">runScenario("Get a post by id", "Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Cart shows added items&quot;, &quot;Cart&quot;)">runScenario("Cart shows added items", "Cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Complete the full checkout flow&quot;, &quot;Checkout&quot;)">runScenario("Complete the full checkout flow", "Checkout")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">runScenario("Checkout validation errors", "Checkout")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">runScenario("Invalid login shows an error", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Create a new post&quot;, &quot;Posts API&quot;)">runScenario("Create a new post", "Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">runScenario("Checkout validation errors", "Checkout")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;User can continue shopping from the cart&quot;, &quot;Cart&quot;)">runScenario("User can continue shopping from the cart", "Cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">runScenario("Checkout validation errors", "Checkout")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Get all posts&quot;, &quot;Posts API&quot;)">runScenario("Get all posts", "Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Sort products by name Z to A&quot;, &quot;Products&quot;)">runScenario("Sort products by name Z to A", "Products")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Cart badge updates when adding and removing products&quot;, &quot;Products&quot;)">runScenario("Cart badge updates when adding and removing products", "Products")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">runScenario("Invalid login shows an error", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Non-existent post returns 404&quot;, &quot;Posts API&quot;)">runScenario("Non-existent post returns 404", "Posts API")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Inventory shows all products&quot;, &quot;Products&quot;)">runScenario("Inventory shows all products", "Products")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Valid user can login&quot;, &quot;Login&quot;)">runScenario("Valid user can login", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;User can remove an item from the cart&quot;, &quot;Cart&quot;)">runScenario("User can remove an item from the cart", "Cart")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo" title="com.saucedemo.runners.RunCucumberTest" class="method navigator-link" hash-for-method="runScenario(&quot;Locked out user sees an error&quot;, &quot;Login&quot;)">runScenario("Locked out user sees an error", "Login")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo" class="panel SauceDemo">
+          <div class="suite-SauceDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.runners.RunCucumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Invalid login shows an error", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid login shows an error","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Invalid login shows an error", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid login shows an error","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sort products by price low to high&quot;, &quot;Products&quot;)">
+                  </a> <!-- runScenario("Sort products by price low to high", "Products") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sort products by price low to high","Products")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can go to the checkout page&quot;, &quot;Cart&quot;)">
+                  </a> <!-- runScenario("User can go to the checkout page", "Cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can go to the checkout page","Cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Perfomance glitch user can still login&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Perfomance glitch user can still login", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Perfomance glitch user can still login","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get a post by id&quot;, &quot;Posts API&quot;)">
+                  </a> <!-- runScenario("Get a post by id", "Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get a post by id","Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Cart shows added items&quot;, &quot;Cart&quot;)">
+                  </a> <!-- runScenario("Cart shows added items", "Cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Cart shows added items","Cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Complete the full checkout flow&quot;, &quot;Checkout&quot;)">
+                  </a> <!-- runScenario("Complete the full checkout flow", "Checkout") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Complete the full checkout flow","Checkout")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">
+                  </a> <!-- runScenario("Checkout validation errors", "Checkout") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checkout validation errors","Checkout")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Invalid login shows an error", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid login shows an error","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Create a new post&quot;, &quot;Posts API&quot;)">
+                  </a> <!-- runScenario("Create a new post", "Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Create a new post","Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">
+                  </a> <!-- runScenario("Checkout validation errors", "Checkout") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checkout validation errors","Checkout")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can continue shopping from the cart&quot;, &quot;Cart&quot;)">
+                  </a> <!-- runScenario("User can continue shopping from the cart", "Cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can continue shopping from the cart","Cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Checkout validation errors&quot;, &quot;Checkout&quot;)">
+                  </a> <!-- runScenario("Checkout validation errors", "Checkout") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Checkout validation errors","Checkout")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Get all posts&quot;, &quot;Posts API&quot;)">
+                  </a> <!-- runScenario("Get all posts", "Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Get all posts","Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Sort products by name Z to A&quot;, &quot;Products&quot;)">
+                  </a> <!-- runScenario("Sort products by name Z to A", "Products") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Sort products by name Z to A","Products")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Cart badge updates when adding and removing products&quot;, &quot;Products&quot;)">
+                  </a> <!-- runScenario("Cart badge updates when adding and removing products", "Products") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Cart badge updates when adding and removing products","Products")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Invalid login shows an error&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Invalid login shows an error", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Invalid login shows an error","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Non-existent post returns 404&quot;, &quot;Posts API&quot;)">
+                  </a> <!-- runScenario("Non-existent post returns 404", "Posts API") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Non-existent post returns 404","Posts API")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Inventory shows all products&quot;, &quot;Products&quot;)">
+                  </a> <!-- runScenario("Inventory shows all products", "Products") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Inventory shows all products","Products")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Valid user can login&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Valid user can login", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Valid user can login","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User can remove an item from the cart&quot;, &quot;Cart&quot;)">
+                  </a> <!-- runScenario("User can remove an item from the cart", "Cart") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User can remove an item from the cart","Cart")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Locked out user sees an error&quot;, &quot;Login&quot;)">
+                  </a> <!-- runScenario("Locked out user sees an error", "Login") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Locked out user sees an error","Login")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo-class-passed -->
+        </div> <!-- panel SauceDemo -->
+        <div panel-name="test-xml-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\sauceDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite data-provider-thread-count=&quot;1&quot; name=&quot;SauceDemo&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.saucedemo.runners.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.saucedemo.runners.RerunFilterListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cucumber Scenarios&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.runners.RunCucumberTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cucumber Scenarios --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Cucumber Scenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo');
+function tableData_SauceDemo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(0, 3, 8676);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(1, 3, 5898);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(2, 3, 5364);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(3, 3, 4993);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(4, 3, 4852);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(5, 3, 4789);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(6, 3, 4723);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(7, 3, 4700);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(8, 3, 4692);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(9, 3, 4631);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(10, 3, 4543);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(11, 3, 4523);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(12, 3, 4336);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(13, 3, 4234);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(14, 3, 4199);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(15, 3, 4178);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(16, 3, 4019);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(17, 3, 3709);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(18, 3, 3579);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(19, 3, 3413);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(20, 3, 1281);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(21, 3, 901);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.saucedemo.runners.RunCucumberTest')
+data.setCell(22, 3, 258);
+window.suiteTableData['SauceDemo']= { tableData: data, tableDiv: 'times-div-SauceDemo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SauceDemo">
+              </div> <!-- times-div-SauceDemo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.runners.RunCucumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@cd7f1ae)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get all posts", "Posts API")</span>
+                <span class="method-start">1077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Get a post by id", "Posts API")</span>
+                <span class="method-start">4793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Create a new post", "Posts API")</span>
+                <span class="method-start">5697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Non-existent post returns 404", "Posts API")</span>
+                <span class="method-start">6980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Cart shows added items", "Cart")</span>
+                <span class="method-start">7240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can remove an item from the cart", "Cart")</span>
+                <span class="method-start">13140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can continue shopping from the cart", "Cart")</span>
+                <span class="method-start">18135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User can go to the checkout page", "Cart")</span>
+                <span class="method-start">22473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Complete the full checkout flow", "Checkout")</span>
+                <span class="method-start">26673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checkout validation errors", "Checkout")</span>
+                <span class="method-start">32039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checkout validation errors", "Checkout")</span>
+                <span class="method-start">36830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Checkout validation errors", "Checkout")</span>
+                <span class="method-start">41555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Valid user can login", "Login")</span>
+                <span class="method-start">46256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Locked out user sees an error", "Login")</span>
+                <span class="method-start">49837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Perfomance glitch user can still login", "Login")</span>
+                <span class="method-start">53252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid login shows an error", "Login")</span>
+                <span class="method-start">61930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid login shows an error", "Login")</span>
+                <span class="method-start">66455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid login shows an error", "Login")</span>
+                <span class="method-start">70634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Invalid login shows an error", "Login")</span>
+                <span class="method-start">75267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Inventory shows all products", "Products")</span>
+                <span class="method-start">79290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sort products by price low to high", "Products")</span>
+                <span class="method-start">83984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Sort products by name Z to A", "Products")</span>
+                <span class="method-start">88529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Cart badge updates when adding and removing products", "Products")</span>
+                <span class="method-start">92765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">97621 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

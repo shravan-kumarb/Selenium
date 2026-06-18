@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo" data-provider-thread-count="1" verbose="1">
+
+	<listeners>
+		<listener class-name="com.saucedemo.runners.RetryListener" />
+		<listener class-name="com.saucedemo.runners.RerunFilterListener" />
+	</listeners>
+	<test name="Cucumber Scenarios">
+		<classes>
+			<class name="com.saucedemo.runners.RunCucumberTest" />
+		</classes>
+	</test> <!--
+	Cucumber Scenarios -->
+</suite> <!--SauceDemo -->

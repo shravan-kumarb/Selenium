@@ -1,0 +1,34 @@
+{
+	"pages":{
+		"productsTitle" :"Products",
+		"cartTitle" : "Your Cart"
+	},
+	"users":{
+		"standard": "standard_user",
+		"locked" : "locked_out_user",
+		"problem": "problem_user",
+		"performance" : "performance_glitch_user"
+	},
+	"products":{
+		"expectedCount" : 6,
+		"backpack" : "Sauce Labs Backpack",
+		"bikeLight": "Sauce Labs Bike Light",
+		"defaultCartItems":["Sauce Labs Backpack","Sauce Labs Bike Light"]		
+	},
+	"checkout":{
+		"validFirstName": "David",
+		"validLastName": "Roy",
+		"validPostalCode": "353253",
+		"successMessage": "Thank you for your order!"
+	},
+	"api":{
+		"existingPostId":1,
+		"nonExistentPostId":999999,
+		"expectedPostCount":100,
+		"newPost":{
+			"userId":1,
+			"title":"Selenium API test",
+			"body":"Hello World"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+services:
+	tests:
+		build: .
+		image: sacucedemo-selenium
+		# Larger shared memory prevents Chrome crashes in containers.
+		shm_size: "2gb"
+		environment:
+			# Override credentials/URLs here or via a .env file if needed.
+			CI: "true"
+		# Persist reports/artifacts back to the host.
+		
+		volumes:
+			-./target/allure-results:/app/target/allure-results
+			-./target/surefire-reports:/app/target/surefire-reports
+			-./target/screenshots:/app/target/screenshots
+		command: mvn -B test -Dheadless=true -Dbrowser=chrome	
